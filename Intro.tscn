@@ -1,0 +1,61 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://scripts/StartButton.cs" type="Script" id=1]
+[ext_resource path="res://font/gothicA1.tres" type="DynamicFont" id=2]
+[ext_resource path="res://images/intro.svg" type="Texture" id=3]
+[ext_resource path="res://images/goIcon.svg" type="Texture" id=4]
+[ext_resource path="res://scripts/Intro.cs" type="Script" id=5]
+
+[node name="Intro" type="Node2D"]
+script = ExtResource( 5 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1280.0
+margin_bottom = 720.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control" type="Control" parent="."]
+margin_right = 1280.0
+margin_bottom = 720.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="Control"]
+position = Vector2( 640, 360 )
+texture = ExtResource( 3 )
+
+[node name="Button" type="Button" parent="Control"]
+margin_left = 878.545
+margin_top = -2.55515
+margin_right = 1328.54
+margin_bottom = 147.445
+rect_scale = Vector2( 0.7, 0.7 )
+rect_pivot_offset = Vector2( 225, 75 )
+custom_fonts/font = ExtResource( 2 )
+text = "Start!"
+icon = ExtResource( 4 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+visible = false
+margin_right = 1280.0
+margin_bottom = 720.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LoadingLabel" type="Label" parent="CenterContainer"]
+margin_left = 577.0
+margin_top = 327.0
+margin_right = 703.0
+margin_bottom = 393.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "0 / 0"
+[connection signal="pressed" from="Control/Button" to="Control/Button" method="_on_Button_pressed"]

@@ -1,0 +1,5 @@
+*.md5
+*.stex
+.mono/
+.vscode/
+*.import

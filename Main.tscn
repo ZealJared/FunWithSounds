@@ -1,0 +1,2072 @@
+[gd_scene load_steps=519 format=2]
+
+[ext_resource path="res://images/frames/a_correct.png" type="Texture" id=1]
+[ext_resource path="res://images/frames/a_disabled.png" type="Texture" id=2]
+[ext_resource path="res://images/frames/b_correct.png" type="Texture" id=3]
+[ext_resource path="res://images/frames/c_correct.png" type="Texture" id=4]
+[ext_resource path="res://images/frames/b_incorrect.png" type="Texture" id=5]
+[ext_resource path="res://images/frames/c_missing.png" type="Texture" id=6]
+[ext_resource path="res://images/frames/b_disabled.png" type="Texture" id=7]
+[ext_resource path="res://images/frames/a_incorrect.png" type="Texture" id=8]
+[ext_resource path="res://images/frames/c_disabled.png" type="Texture" id=9]
+[ext_resource path="res://images/frames/c_incorrect.png" type="Texture" id=10]
+[ext_resource path="res://images/frames/b_normal.png" type="Texture" id=11]
+[ext_resource path="res://images/frames/c_normal.png" type="Texture" id=12]
+[ext_resource path="res://images/frames/a_missing.png" type="Texture" id=13]
+[ext_resource path="res://images/frames/b_missing.png" type="Texture" id=14]
+[ext_resource path="res://images/frames/a_normal.png" type="Texture" id=15]
+[ext_resource path="res://images/frames/x_disabled.png" type="Texture" id=16]
+[ext_resource path="res://images/frames/t_normal.png" type="Texture" id=17]
+[ext_resource path="res://images/frames/s_correct.png" type="Texture" id=18]
+[ext_resource path="res://images/frames/s_disabled.png" type="Texture" id=19]
+[ext_resource path="res://images/frames/s_incorrect.png" type="Texture" id=20]
+[ext_resource path="res://images/frames/t_missing.png" type="Texture" id=21]
+[ext_resource path="res://images/frames/w_correct.png" type="Texture" id=22]
+[ext_resource path="res://images/frames/w_disabled.png" type="Texture" id=23]
+[ext_resource path="res://images/frames/w_incorrect.png" type="Texture" id=24]
+[ext_resource path="res://images/frames/w_missing.png" type="Texture" id=25]
+[ext_resource path="res://images/frames/x_incorrect.png" type="Texture" id=26]
+[ext_resource path="res://images/frames/w_normal.png" type="Texture" id=27]
+[ext_resource path="res://images/frames/x_normal.png" type="Texture" id=28]
+[ext_resource path="res://images/frames/v_correct.png" type="Texture" id=29]
+[ext_resource path="res://images/frames/v_disabled.png" type="Texture" id=30]
+[ext_resource path="res://images/frames/x_correct.png" type="Texture" id=31]
+[ext_resource path="res://images/frames/v_incorrect.png" type="Texture" id=32]
+[ext_resource path="res://images/frames/v_missing.png" type="Texture" id=33]
+[ext_resource path="res://images/frames/v_normal.png" type="Texture" id=34]
+[ext_resource path="res://images/frames/u_disabled.png" type="Texture" id=35]
+[ext_resource path="res://images/frames/[p]_missing.png" type="Texture" id=36]
+[ext_resource path="res://images/frames/[n]_correct.png" type="Texture" id=37]
+[ext_resource path="res://images/frames/[ks]_incorrect.png" type="Texture" id=38]
+[ext_resource path="res://images/frames/[kw]_correct.png" type="Texture" id=39]
+[ext_resource path="res://images/frames/[h]_correct.png" type="Texture" id=40]
+[ext_resource path="res://images/frames/[r]_normal.png" type="Texture" id=41]
+[ext_resource path="res://images/frames/[h]_disabled.png" type="Texture" id=42]
+[ext_resource path="res://images/frames/[p]_correct.png" type="Texture" id=43]
+[ext_resource path="res://images/frames/[m]_incorrect.png" type="Texture" id=44]
+[ext_resource path="res://images/frames/[p]_disabled.png" type="Texture" id=45]
+[ext_resource path="res://images/frames/[l]_disabled.png" type="Texture" id=46]
+[ext_resource path="res://images/frames/[s]_incorrect.png" type="Texture" id=47]
+[ext_resource path="res://images/frames/[k]_correct.png" type="Texture" id=48]
+[ext_resource path="res://images/frames/[j]_disabled.png" type="Texture" id=49]
+[ext_resource path="res://images/frames/[j]_incorrect.png" type="Texture" id=50]
+[ext_resource path="res://images/frames/[hw]_correct.png" type="Texture" id=51]
+[ext_resource path="res://images/frames/[j]_missing.png" type="Texture" id=52]
+[ext_resource path="res://images/frames/[kw]_missing.png" type="Texture" id=53]
+[ext_resource path="res://images/frames/[r]_missing.png" type="Texture" id=54]
+[ext_resource path="res://images/frames/[p]_normal.png" type="Texture" id=55]
+[ext_resource path="res://images/frames/[l]_missing.png" type="Texture" id=56]
+[ext_resource path="res://images/frames/[ks]_correct.png" type="Texture" id=57]
+[ext_resource path="res://images/frames/[r]_correct.png" type="Texture" id=58]
+[ext_resource path="res://images/frames/[n]_disabled.png" type="Texture" id=59]
+[ext_resource path="res://images/frames/[n]_normal.png" type="Texture" id=60]
+[ext_resource path="res://images/frames/[h]_incorrect.png" type="Texture" id=61]
+[ext_resource path="res://images/frames/[h]_missing.png" type="Texture" id=62]
+[ext_resource path="res://images/frames/[m]_disabled.png" type="Texture" id=63]
+[ext_resource path="res://images/frames/[h]_normal.png" type="Texture" id=64]
+[ext_resource path="res://images/frames/[ks]_normal.png" type="Texture" id=65]
+[ext_resource path="res://images/frames/[l]_normal.png" type="Texture" id=66]
+[ext_resource path="res://images/frames/[ks]_disabled.png" type="Texture" id=67]
+[ext_resource path="res://images/frames/[ks]_missing.png" type="Texture" id=68]
+[ext_resource path="res://images/frames/[r]_incorrect.png" type="Texture" id=69]
+[ext_resource path="res://images/frames/[s]_disabled.png" type="Texture" id=70]
+[ext_resource path="res://scripts/Main.cs" type="Script" id=71]
+[ext_resource path="res://scripts/Grapheme.cs" type="Script" id=72]
+[ext_resource path="res://scripts/Phoneme.cs" type="Script" id=73]
+[ext_resource path="res://scripts/DoneButton.cs" type="Script" id=74]
+[ext_resource path="res://font/gothicA1.tres" type="DynamicFont" id=75]
+[ext_resource path="res://scripts/ResetButton.cs" type="Script" id=76]
+[ext_resource path="res://sounds/black_calf.ogg" type="AudioStream" id=77]
+[ext_resource path="res://sounds/white_tie.ogg" type="AudioStream" id=78]
+[ext_resource path="res://sounds/wood_wolf.ogg" type="AudioStream" id=79]
+[ext_resource path="res://sounds/red_head.ogg" type="AudioStream" id=80]
+[ext_resource path="res://sounds/silver_cymbal.ogg" type="AudioStream" id=81]
+[ext_resource path="res://sounds/brown_plough.ogg" type="AudioStream" id=82]
+[ext_resource path="res://sounds/rose_bow.ogg" type="AudioStream" id=83]
+[ext_resource path="res://sounds/[u]short.ogg" type="AudioStream" id=84]
+[ext_resource path="res://sounds/turquoise_toy.ogg" type="AudioStream" id=85]
+[ext_resource path="res://sounds/auburn_chalk.ogg" type="AudioStream" id=86]
+[ext_resource path="res://sounds/olive_swan.ogg" type="AudioStream" id=87]
+[ext_resource path="res://sounds/gray_snail.ogg" type="AudioStream" id=88]
+[ext_resource path="res://sounds/Y_blue.ogg" type="AudioStream" id=89]
+[ext_resource path="res://sounds/b.ogg" type="AudioStream" id=90]
+[ext_resource path="res://sounds/w.ogg" type="AudioStream" id=91]
+[ext_resource path="res://sounds/zh.ogg" type="AudioStream" id=92]
+[ext_resource path="res://sounds/p.ogg" type="AudioStream" id=93]
+[ext_resource path="res://sounds/y.ogg" type="AudioStream" id=94]
+[ext_resource path="res://sounds/r.ogg" type="AudioStream" id=95]
+[ext_resource path="res://sounds/green_tea.ogg" type="AudioStream" id=96]
+[ext_resource path="res://sounds/ng.ogg" type="AudioStream" id=97]
+[ext_resource path="res://sounds/d.ogg" type="AudioStream" id=98]
+[ext_resource path="res://sounds/s.ogg" type="AudioStream" id=99]
+[ext_resource path="res://sounds/qu.ogg" type="AudioStream" id=100]
+[ext_resource path="res://sounds/h.ogg" type="AudioStream" id=101]
+[ext_resource path="res://sounds/ch.ogg" type="AudioStream" id=102]
+[ext_resource path="res://sounds/[L].ogg" type="AudioStream" id=103]
+[ext_resource path="res://sounds/f.ogg" type="AudioStream" id=104]
+[ext_resource path="res://sounds/z.ogg" type="AudioStream" id=105]
+[ext_resource path="res://sounds/v.ogg" type="AudioStream" id=106]
+[ext_resource path="res://sounds/[m]Lipsclosed.ogg" type="AudioStream" id=107]
+[ext_resource path="res://sounds/x.ogg" type="AudioStream" id=108]
+[ext_resource path="res://sounds/blue_moon.ogg" type="AudioStream" id=109]
+[ext_resource path="res://sounds/th.ogg" type="AudioStream" id=110]
+[ext_resource path="res://sounds/k.ogg" type="AudioStream" id=111]
+[ext_resource path="res://sounds/g.ogg" type="AudioStream" id=112]
+[ext_resource path="res://sounds/sh.ogg" type="AudioStream" id=113]
+[ext_resource path="res://sounds/j.ogg" type="AudioStream" id=114]
+[ext_resource path="res://sounds/t.ogg" type="AudioStream" id=115]
+[ext_resource path="res://sounds/[n]Lipsopen.ogg" type="AudioStream" id=116]
+[ext_resource path="res://sounds/the.ogg" type="AudioStream" id=117]
+[ext_resource path="res://images/frames/[n]_incorrect.png" type="Texture" id=118]
+[ext_resource path="res://images/frames/[n]_missing.png" type="Texture" id=119]
+[ext_resource path="res://images/frames/[m]_missing.png" type="Texture" id=120]
+[ext_resource path="res://images/frames/[p]_incorrect.png" type="Texture" id=121]
+[ext_resource path="res://images/frames/[l]_correct.png" type="Texture" id=122]
+[ext_resource path="res://images/frames/[k]_disabled.png" type="Texture" id=123]
+[ext_resource path="res://images/frames/[k]_incorrect.png" type="Texture" id=124]
+[ext_resource path="res://images/frames/[k]_normal.png" type="Texture" id=125]
+[ext_resource path="res://images/frames/[r]_disabled.png" type="Texture" id=126]
+[ext_resource path="res://images/frames/[kw]_incorrect.png" type="Texture" id=127]
+[ext_resource path="res://images/frames/[j]_correct.png" type="Texture" id=128]
+[ext_resource path="res://images/frames/[j]_normal.png" type="Texture" id=129]
+[ext_resource path="res://images/frames/[s]_normal.png" type="Texture" id=130]
+[ext_resource path="res://images/frames/[m]_normal.png" type="Texture" id=131]
+[ext_resource path="res://images/frames/[kw]_disabled.png" type="Texture" id=132]
+[ext_resource path="res://images/frames/[kw]_normal.png" type="Texture" id=133]
+[ext_resource path="res://images/frames/[k]_missing.png" type="Texture" id=134]
+[ext_resource path="res://images/frames/[hw]_disabled.png" type="Texture" id=135]
+[ext_resource path="res://images/frames/[hw]_incorrect.png" type="Texture" id=136]
+[ext_resource path="res://images/frames/[hw]_normal.png" type="Texture" id=137]
+[ext_resource path="res://images/frames/[m]_correct.png" type="Texture" id=138]
+[ext_resource path="res://images/frames/[hw]_missing.png" type="Texture" id=139]
+[ext_resource path="res://images/frames/[l]_incorrect.png" type="Texture" id=140]
+[ext_resource path="res://images/frames/u_incorrect.png" type="Texture" id=141]
+[ext_resource path="res://images/frames/u_correct.png" type="Texture" id=142]
+[ext_resource path="res://images/frames/u_normal.png" type="Texture" id=143]
+[ext_resource path="res://images/frames/x_missing.png" type="Texture" id=144]
+[ext_resource path="res://images/frames/t_correct.png" type="Texture" id=145]
+[ext_resource path="res://images/frames/t_disabled.png" type="Texture" id=146]
+[ext_resource path="res://images/frames/[ʌ]_disabled.png" type="Texture" id=147]
+[ext_resource path="res://images/frames/u_missing.png" type="Texture" id=148]
+[ext_resource path="res://images/frames/t_incorrect.png" type="Texture" id=149]
+[ext_resource path="res://images/frames/i_incorrect.png" type="Texture" id=150]
+[ext_resource path="res://images/frames/h_disabled.png" type="Texture" id=151]
+[ext_resource path="res://images/frames/p_incorrect.png" type="Texture" id=152]
+[ext_resource path="res://images/frames/g_normal.png" type="Texture" id=153]
+[ext_resource path="res://images/frames/q_incorrect.png" type="Texture" id=154]
+[ext_resource path="res://images/frames/[ɛ]_incorrect.png" type="Texture" id=155]
+[ext_resource path="res://images/frames/q_correct.png" type="Texture" id=156]
+[ext_resource path="res://images/frames/[ɛ]_correct.png" type="Texture" id=157]
+[ext_resource path="res://images/frames/[ɛ]_missing.png" type="Texture" id=158]
+[ext_resource path="res://images/frames/[ɔɪ]_correct.png" type="Texture" id=159]
+[ext_resource path="res://images/frames/[ɔ]_disabled.png" type="Texture" id=160]
+[ext_resource path="res://images/frames/[ɔ]_incorrect.png" type="Texture" id=161]
+[ext_resource path="res://images/frames/[ɔɪ]_normal.png" type="Texture" id=162]
+[ext_resource path="res://images/frames/[ɪ]_normal.png" type="Texture" id=163]
+[ext_resource path="res://images/frames/[ɔ]_correct.png" type="Texture" id=164]
+[ext_resource path="res://images/frames/[ɔ]_missing.png" type="Texture" id=165]
+[ext_resource path="res://images/frames/[ʊ]_correct.png" type="Texture" id=166]
+[ext_resource path="res://images/frames/[ɔɪ]_disabled.png" type="Texture" id=167]
+[ext_resource path="res://images/frames/f_correct.png" type="Texture" id=168]
+[ext_resource path="res://images/frames/[ɪ]_missing.png" type="Texture" id=169]
+[ext_resource path="res://images/frames/[ɛ]_normal.png" type="Texture" id=170]
+[ext_resource path="res://images/frames/[ɔ]_normal.png" type="Texture" id=171]
+[ext_resource path="res://images/frames/[ɛ]_disabled.png" type="Texture" id=172]
+[ext_resource path="res://images/frames/[ɪ]_correct.png" type="Texture" id=173]
+[ext_resource path="res://images/frames/[ɔɪ]_incorrect.png" type="Texture" id=174]
+[ext_resource path="res://images/frames/[ɪ]_disabled.png" type="Texture" id=175]
+[ext_resource path="res://images/frames/[ɪ]_incorrect.png" type="Texture" id=176]
+[ext_resource path="res://images/frames/[ɔɪ]_missing.png" type="Texture" id=177]
+[ext_resource path="res://images/frames/[ʊ]_disabled.png" type="Texture" id=178]
+[ext_resource path="res://images/frames/[ʊ]_normal.png" type="Texture" id=179]
+[ext_resource path="res://images/frames/[ʊ]_incorrect.png" type="Texture" id=180]
+[ext_resource path="res://images/frames/[ʌ]_correct.png" type="Texture" id=181]
+[ext_resource path="res://images/frames/[ʊ]_missing.png" type="Texture" id=182]
+[ext_resource path="res://images/frames/[ŋ]_incorrect.png" type="Texture" id=183]
+[ext_resource path="res://images/frames/[ŋ]_normal.png" type="Texture" id=184]
+[ext_resource path="res://images/frames/[ʤ]_normal.png" type="Texture" id=185]
+[ext_resource path="res://images/frames/[θ]_missing.png" type="Texture" id=186]
+[ext_resource path="res://images/frames/[z]_disabled.png" type="Texture" id=187]
+[ext_resource path="res://images/frames/[θ]_normal.png" type="Texture" id=188]
+[ext_resource path="res://images/frames/[ʧ]_incorrect.png" type="Texture" id=189]
+[ext_resource path="res://images/frames/[z]_incorrect.png" type="Texture" id=190]
+[ext_resource path="res://images/frames/[z]_normal.png" type="Texture" id=191]
+[ext_resource path="res://images/frames/[ʃ]_normal.png" type="Texture" id=192]
+[ext_resource path="res://images/frames/[w]_incorrect.png" type="Texture" id=193]
+[ext_resource path="res://images/frames/[θ]_incorrect.png" type="Texture" id=194]
+[ext_resource path="res://images/frames/[ʒ]_incorrect.png" type="Texture" id=195]
+[ext_resource path="res://images/frames/[f]_missing.png" type="Texture" id=196]
+[ext_resource path="res://images/frames/[f]_normal.png" type="Texture" id=197]
+[ext_resource path="res://images/frames/[θ]_disabled.png" type="Texture" id=198]
+[ext_resource path="res://images/frames/[ʧ]_disabled.png" type="Texture" id=199]
+[ext_resource path="res://images/frames/[ʧ]_missing.png" type="Texture" id=200]
+[ext_resource path="res://images/frames/[ʧ]_normal.png" type="Texture" id=201]
+[ext_resource path="res://images/frames/[ʤ]_disabled.png" type="Texture" id=202]
+[ext_resource path="res://images/frames/[ð]_missing.png" type="Texture" id=203]
+[ext_resource path="res://images/frames/[w]_missing.png" type="Texture" id=204]
+[ext_resource path="res://images/frames/[w]_normal.png" type="Texture" id=205]
+[ext_resource path="res://images/frames/[ʌ]_missing.png" type="Texture" id=206]
+[ext_resource path="res://images/frames/[d]_normal.png" type="Texture" id=207]
+[ext_resource path="res://images/frames/[ʤ]_correct.png" type="Texture" id=208]
+[ext_resource path="res://images/frames/[ð]_disabled.png" type="Texture" id=209]
+[ext_resource path="res://images/frames/[ð]_correct.png" type="Texture" id=210]
+[ext_resource path="res://images/frames/[v]_correct.png" type="Texture" id=211]
+[ext_resource path="res://images/frames/[d]_disabled.png" type="Texture" id=212]
+[ext_resource path="res://images/frames/[ð]_incorrect.png" type="Texture" id=213]
+[ext_resource path="res://images/frames/[v]_incorrect.png" type="Texture" id=214]
+[ext_resource path="res://images/frames/[ʃ]_disabled.png" type="Texture" id=215]
+[ext_resource path="res://images/frames/[v]_missing.png" type="Texture" id=216]
+[ext_resource path="res://images/frames/[v]_normal.png" type="Texture" id=217]
+[ext_resource path="res://images/frames/[ʃ]_missing.png" type="Texture" id=218]
+[ext_resource path="res://images/frames/[ʤ]_missing.png" type="Texture" id=219]
+[ext_resource path="res://images/frames/[f]_incorrect.png" type="Texture" id=220]
+[ext_resource path="res://images/frames/[w]_disabled.png" type="Texture" id=221]
+[ext_resource path="res://images/frames/[ʒ]_correct.png" type="Texture" id=222]
+[ext_resource path="res://images/frames/[ʃ]_correct.png" type="Texture" id=223]
+[ext_resource path="res://images/frames/[d]_incorrect.png" type="Texture" id=224]
+[ext_resource path="res://images/frames/[ʃ]_incorrect.png" type="Texture" id=225]
+[ext_resource path="res://images/frames/[θ]_correct.png" type="Texture" id=226]
+[ext_resource path="res://images/frames/[ʒ]_disabled.png" type="Texture" id=227]
+[ext_resource path="res://images/frames/[ʤ]_incorrect.png" type="Texture" id=228]
+[ext_resource path="res://images/frames/[ð]_normal.png" type="Texture" id=229]
+[ext_resource path="res://images/frames/[ŋ]_missing.png" type="Texture" id=230]
+[ext_resource path="res://images/frames/[w]_correct.png" type="Texture" id=231]
+[ext_resource path="res://images/frames/[v]_disabled.png" type="Texture" id=232]
+[ext_resource path="res://images/frames/[ʒ]_missing.png" type="Texture" id=233]
+[ext_resource path="res://images/frames/[d]_correct.png" type="Texture" id=234]
+[ext_resource path="res://images/frames/[ʌ]_incorrect.png" type="Texture" id=235]
+[ext_resource path="res://images/frames/[d]_missing.png" type="Texture" id=236]
+[ext_resource path="res://images/frames/[ʧ]_correct.png" type="Texture" id=237]
+[ext_resource path="res://images/frames/[ŋ]_correct.png" type="Texture" id=238]
+[ext_resource path="res://images/frames/[z]_correct.png" type="Texture" id=239]
+[ext_resource path="res://images/frames/[z]_missing.png" type="Texture" id=240]
+[ext_resource path="res://images/frames/[ʌ]_normal.png" type="Texture" id=241]
+[ext_resource path="res://images/frames/[f]_correct.png" type="Texture" id=242]
+[ext_resource path="res://images/frames/[f]_disabled.png" type="Texture" id=243]
+[ext_resource path="res://images/frames/[ʒ]_normal.png" type="Texture" id=244]
+[ext_resource path="res://images/frames/[ŋ]_disabled.png" type="Texture" id=245]
+[ext_resource path="res://images/frames/[t]_disabled.png" type="Texture" id=246]
+[ext_resource path="res://images/frames/[t]_missing.png" type="Texture" id=247]
+[ext_resource path="res://images/frames/[t]_normal.png" type="Texture" id=248]
+[ext_resource path="res://images/frames/[t]_correct.png" type="Texture" id=249]
+[ext_resource path="res://images/frames/[t]_incorrect.png" type="Texture" id=250]
+[ext_resource path="res://images/frames/[s]_correct.png" type="Texture" id=251]
+[ext_resource path="res://images/frames/[b]_normal.png" type="Texture" id=252]
+[ext_resource path="res://images/frames/[b]_correct.png" type="Texture" id=253]
+[ext_resource path="res://images/frames/[g]_normal.png" type="Texture" id=254]
+[ext_resource path="res://images/frames/[g]_missing.png" type="Texture" id=255]
+[ext_resource path="res://images/frames/[g]_correct.png" type="Texture" id=256]
+[ext_resource path="res://images/frames/[b]_disabled.png" type="Texture" id=257]
+[ext_resource path="res://images/frames/[b]_incorrect.png" type="Texture" id=258]
+[ext_resource path="res://images/frames/[b]_missing.png" type="Texture" id=259]
+[ext_resource path="res://images/frames/[g]_disabled.png" type="Texture" id=260]
+[ext_resource path="res://images/frames/[g]_incorrect.png" type="Texture" id=261]
+[ext_resource path="res://images/frames/z_normal.png" type="Texture" id=262]
+[ext_resource path="res://images/frames/z_missing.png" type="Texture" id=263]
+[ext_resource path="res://images/frames/z_disabled.png" type="Texture" id=264]
+[ext_resource path="res://images/frames/z_incorrect.png" type="Texture" id=265]
+[ext_resource path="res://images/frames/[s]_missing.png" type="Texture" id=266]
+[ext_resource path="res://images/frames/z_correct.png" type="Texture" id=267]
+[ext_resource path="res://images/frames/y_missing.png" type="Texture" id=268]
+[ext_resource path="res://images/frames/y_disabled.png" type="Texture" id=269]
+[ext_resource path="res://images/frames/y_incorrect.png" type="Texture" id=270]
+[ext_resource path="res://images/frames/y_normal.png" type="Texture" id=271]
+[ext_resource path="res://images/frames/y_correct.png" type="Texture" id=272]
+[ext_resource path="res://images/frames/f_disabled.png" type="Texture" id=273]
+[ext_resource path="res://images/frames/j_missing.png" type="Texture" id=274]
+[ext_resource path="res://images/frames/r_normal.png" type="Texture" id=275]
+[ext_resource path="res://images/frames/n_incorrect.png" type="Texture" id=276]
+[ext_resource path="res://images/frames/o_normal.png" type="Texture" id=277]
+[ext_resource path="res://images/frames/p_disabled.png" type="Texture" id=278]
+[ext_resource path="res://images/frames/r_missing.png" type="Texture" id=279]
+[ext_resource path="res://images/frames/q_normal.png" type="Texture" id=280]
+[ext_resource path="res://images/frames/k_disabled.png" type="Texture" id=281]
+[ext_resource path="res://images/frames/r_correct.png" type="Texture" id=282]
+[ext_resource path="res://images/frames/s_normal.png" type="Texture" id=283]
+[ext_resource path="res://images/frames/r_disabled.png" type="Texture" id=284]
+[ext_resource path="res://images/frames/j_incorrect.png" type="Texture" id=285]
+[ext_resource path="res://images/frames/r_incorrect.png" type="Texture" id=286]
+[ext_resource path="res://images/frames/i_missing.png" type="Texture" id=287]
+[ext_resource path="res://images/frames/q_disabled.png" type="Texture" id=288]
+[ext_resource path="res://images/frames/k_correct.png" type="Texture" id=289]
+[ext_resource path="res://images/frames/o_missing.png" type="Texture" id=290]
+[ext_resource path="res://images/frames/i_normal.png" type="Texture" id=291]
+[ext_resource path="res://images/frames/q_missing.png" type="Texture" id=292]
+[ext_resource path="res://images/frames/p_correct.png" type="Texture" id=293]
+[ext_resource path="res://images/frames/l_normal.png" type="Texture" id=294]
+[ext_resource path="res://images/frames/i_correct.png" type="Texture" id=295]
+[ext_resource path="res://images/frames/l_missing.png" type="Texture" id=296]
+[ext_resource path="res://images/frames/k_incorrect.png" type="Texture" id=297]
+[ext_resource path="res://images/frames/k_normal.png" type="Texture" id=298]
+[ext_resource path="res://images/frames/j_correct.png" type="Texture" id=299]
+[ext_resource path="res://images/frames/j_normal.png" type="Texture" id=300]
+[ext_resource path="res://images/frames/s_missing.png" type="Texture" id=301]
+[ext_resource path="res://images/frames/n_missing.png" type="Texture" id=302]
+[ext_resource path="res://images/frames/i_disabled.png" type="Texture" id=303]
+[ext_resource path="res://images/frames/h_correct.png" type="Texture" id=304]
+[ext_resource path="res://images/frames/p_normal.png" type="Texture" id=305]
+[ext_resource path="res://images/frames/h_incorrect.png" type="Texture" id=306]
+[ext_resource path="res://images/frames/m_incorrect.png" type="Texture" id=307]
+[ext_resource path="res://images/frames/h_missing.png" type="Texture" id=308]
+[ext_resource path="res://images/frames/g_disabled.png" type="Texture" id=309]
+[ext_resource path="res://images/frames/n_normal.png" type="Texture" id=310]
+[ext_resource path="res://images/frames/m_correct.png" type="Texture" id=311]
+[ext_resource path="res://images/frames/l_correct.png" type="Texture" id=312]
+[ext_resource path="res://images/frames/g_incorrect.png" type="Texture" id=313]
+[ext_resource path="res://images/frames/o_correct.png" type="Texture" id=314]
+[ext_resource path="res://images/frames/h_normal.png" type="Texture" id=315]
+[ext_resource path="res://images/frames/n_disabled.png" type="Texture" id=316]
+[ext_resource path="res://images/frames/j_disabled.png" type="Texture" id=317]
+[ext_resource path="res://images/frames/g_correct.png" type="Texture" id=318]
+[ext_resource path="res://images/frames/g_missing.png" type="Texture" id=319]
+[ext_resource path="res://images/frames/n_correct.png" type="Texture" id=320]
+[ext_resource path="res://images/frames/p_missing.png" type="Texture" id=321]
+[ext_resource path="res://images/frames/o_incorrect.png" type="Texture" id=322]
+[ext_resource path="res://images/frames/m_missing.png" type="Texture" id=323]
+[ext_resource path="res://images/frames/m_disabled.png" type="Texture" id=324]
+[ext_resource path="res://images/frames/m_normal.png" type="Texture" id=325]
+[ext_resource path="res://images/frames/l_disabled.png" type="Texture" id=326]
+[ext_resource path="res://images/frames/l_incorrect.png" type="Texture" id=327]
+[ext_resource path="res://images/frames/k_missing.png" type="Texture" id=328]
+[ext_resource path="res://images/frames/o_disabled.png" type="Texture" id=329]
+[ext_resource path="res://images/frames/d_missing.png" type="Texture" id=330]
+[ext_resource path="res://images/frames/d_normal.png" type="Texture" id=331]
+[ext_resource path="res://images/frames/e_disabled.png" type="Texture" id=332]
+[ext_resource path="res://images/frames/e_incorrect.png" type="Texture" id=333]
+[ext_resource path="res://images/frames/f_missing.png" type="Texture" id=334]
+[ext_resource path="res://images/frames/e_missing.png" type="Texture" id=335]
+[ext_resource path="res://images/frames/e_normal.png" type="Texture" id=336]
+[ext_resource path="res://images/frames/e_correct.png" type="Texture" id=337]
+[ext_resource path="res://images/frames/f_incorrect.png" type="Texture" id=338]
+[ext_resource path="res://images/frames/d_correct.png" type="Texture" id=339]
+[ext_resource path="res://images/frames/d_disabled.png" type="Texture" id=340]
+[ext_resource path="res://images/frames/f_normal.png" type="Texture" id=341]
+[ext_resource path="res://images/frames/d_incorrect.png" type="Texture" id=342]
+[ext_resource path="res://images/frames/[aɪ]_incorrect.png" type="Texture" id=343]
+[ext_resource path="res://images/frames/[aʊ]_normal.png" type="Texture" id=344]
+[ext_resource path="res://images/frames/[oʊ]_incorrect.png" type="Texture" id=345]
+[ext_resource path="res://images/frames/[oʊ]_normal.png" type="Texture" id=346]
+[ext_resource path="res://images/frames/[aʊ]_missing.png" type="Texture" id=347]
+[ext_resource path="res://images/frames/[æ]_correct.png" type="Texture" id=348]
+[ext_resource path="res://images/frames/[æ]_incorrect.png" type="Texture" id=349]
+[ext_resource path="res://images/frames/[ɑ]_disabled.png" type="Texture" id=350]
+[ext_resource path="res://images/frames/[ɝ]_missing.png" type="Texture" id=351]
+[ext_resource path="res://images/frames/[ɑ]_missing.png" type="Texture" id=352]
+[ext_resource path="res://images/frames/[ju]_normal.png" type="Texture" id=353]
+[ext_resource path="res://images/frames/[ɑ]_normal.png" type="Texture" id=354]
+[ext_resource path="res://images/frames/[i]_correct.png" type="Texture" id=355]
+[ext_resource path="res://images/frames/[i]_disabled.png" type="Texture" id=356]
+[ext_resource path="res://images/frames/[i]_incorrect.png" type="Texture" id=357]
+[ext_resource path="res://images/frames/[i]_missing.png" type="Texture" id=358]
+[ext_resource path="res://images/frames/[eɪ]_incorrect.png" type="Texture" id=359]
+[ext_resource path="res://images/frames/[ju]_disabled.png" type="Texture" id=360]
+[ext_resource path="res://images/frames/[aʊ]_disabled.png" type="Texture" id=361]
+[ext_resource path="res://images/frames/[aɪ]_normal.png" type="Texture" id=362]
+[ext_resource path="res://images/frames/[eɪ]_correct.png" type="Texture" id=363]
+[ext_resource path="res://images/frames/[aɪ]_missing.png" type="Texture" id=364]
+[ext_resource path="res://images/frames/[ju]_incorrect.png" type="Texture" id=365]
+[ext_resource path="res://images/frames/[u]_correct.png" type="Texture" id=366]
+[ext_resource path="res://images/frames/[æ]_missing.png" type="Texture" id=367]
+[ext_resource path="res://images/frames/[æ]_normal.png" type="Texture" id=368]
+[ext_resource path="res://images/frames/[oʊ]_disabled.png" type="Texture" id=369]
+[ext_resource path="res://images/frames/[u]_disabled.png" type="Texture" id=370]
+[ext_resource path="res://images/frames/[ɑ]_correct.png" type="Texture" id=371]
+[ext_resource path="res://images/frames/[ju]_correct.png" type="Texture" id=372]
+[ext_resource path="res://images/frames/[ɝ]_correct.png" type="Texture" id=373]
+[ext_resource path="res://images/frames/[aɪ]_disabled.png" type="Texture" id=374]
+[ext_resource path="res://images/frames/[aʊ]_incorrect.png" type="Texture" id=375]
+[ext_resource path="res://images/frames/[u]_missing.png" type="Texture" id=376]
+[ext_resource path="res://images/frames/[ɝ]_normal.png" type="Texture" id=377]
+[ext_resource path="res://images/frames/[u]_incorrect.png" type="Texture" id=378]
+[ext_resource path="res://images/frames/[æ]_disabled.png" type="Texture" id=379]
+[ext_resource path="res://images/frames/[ɑ]_incorrect.png" type="Texture" id=380]
+[ext_resource path="res://images/frames/[ɝ]_disabled.png" type="Texture" id=381]
+[ext_resource path="res://images/frames/[eɪ]_disabled.png" type="Texture" id=382]
+[ext_resource path="res://images/frames/[aɪ]_correct.png" type="Texture" id=383]
+[ext_resource path="res://images/frames/[oʊ]_missing.png" type="Texture" id=384]
+[ext_resource path="res://images/frames/[u]_normal.png" type="Texture" id=385]
+[ext_resource path="res://images/frames/[aʊ]_correct.png" type="Texture" id=386]
+[ext_resource path="res://images/frames/[eɪ]_normal.png" type="Texture" id=387]
+[ext_resource path="res://images/frames/[oʊ]_correct.png" type="Texture" id=388]
+[ext_resource path="res://images/frames/[eɪ]_missing.png" type="Texture" id=389]
+[ext_resource path="res://images/frames/[ɝ]_incorrect.png" type="Texture" id=390]
+[ext_resource path="res://images/frames/[ju]_missing.png" type="Texture" id=391]
+[ext_resource path="res://images/frames/[i]_normal.png" type="Texture" id=392]
+[ext_resource path="res://scripts/NextButton.cs" type="Script" id=393]
+[ext_resource path="res://sounds/purple_shirt.ogg" type="AudioStream" id=394]
+[ext_resource path="res://sounds/hw.ogg" type="AudioStream" id=395]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 377 ), ExtResource( 381 ), ExtResource( 373 ), ExtResource( 390 ), ExtResource( 351 ) ],
+"loop": false,
+"name": "default",
+"speed": 0.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 120.622, 131.685 )
+
+[sub_resource type="SpriteFrames" id=3]
+animations = [ {
+"frames": [ ExtResource( 362 ), ExtResource( 374 ), ExtResource( 383 ), ExtResource( 343 ), ExtResource( 364 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=4]
+animations = [ {
+"frames": [ ExtResource( 344 ), ExtResource( 361 ), ExtResource( 386 ), ExtResource( 375 ), ExtResource( 347 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=5]
+animations = [ {
+"frames": [ ExtResource( 387 ), ExtResource( 382 ), ExtResource( 363 ), ExtResource( 359 ), ExtResource( 389 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=6]
+animations = [ {
+"frames": [ ExtResource( 392 ), ExtResource( 356 ), ExtResource( 355 ), ExtResource( 357 ), ExtResource( 358 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=7]
+animations = [ {
+"frames": [ ExtResource( 353 ), ExtResource( 360 ), ExtResource( 372 ), ExtResource( 365 ), ExtResource( 391 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=8]
+animations = [ {
+"frames": [ ExtResource( 346 ), ExtResource( 369 ), ExtResource( 388 ), ExtResource( 345 ), ExtResource( 384 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=9]
+animations = [ {
+"frames": [ ExtResource( 385 ), ExtResource( 370 ), ExtResource( 366 ), ExtResource( 378 ), ExtResource( 376 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=10]
+animations = [ {
+"frames": [ ExtResource( 368 ), ExtResource( 379 ), ExtResource( 348 ), ExtResource( 349 ), ExtResource( 367 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=11]
+animations = [ {
+"frames": [ ExtResource( 354 ), ExtResource( 350 ), ExtResource( 371 ), ExtResource( 380 ), ExtResource( 352 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=12]
+animations = [ {
+"frames": [ ExtResource( 171 ), ExtResource( 160 ), ExtResource( 164 ), ExtResource( 161 ), ExtResource( 165 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=13]
+animations = [ {
+"frames": [ ExtResource( 162 ), ExtResource( 167 ), ExtResource( 159 ), ExtResource( 174 ), ExtResource( 177 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=14]
+animations = [ {
+"frames": [ ExtResource( 170 ), ExtResource( 172 ), ExtResource( 157 ), ExtResource( 155 ), ExtResource( 158 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=15]
+animations = [ {
+"frames": [ ExtResource( 163 ), ExtResource( 175 ), ExtResource( 173 ), ExtResource( 176 ), ExtResource( 169 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=16]
+animations = [ {
+"frames": [ ExtResource( 179 ), ExtResource( 178 ), ExtResource( 166 ), ExtResource( 180 ), ExtResource( 182 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=17]
+animations = [ {
+"frames": [ ExtResource( 241 ), ExtResource( 147 ), ExtResource( 181 ), ExtResource( 235 ), ExtResource( 206 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=18]
+animations = [ {
+"frames": [ ExtResource( 197 ), ExtResource( 243 ), ExtResource( 242 ), ExtResource( 220 ), ExtResource( 196 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=19]
+radius = 45.2909
+
+[sub_resource type="SpriteFrames" id=20]
+animations = [ {
+"frames": [ ExtResource( 207 ), ExtResource( 212 ), ExtResource( 234 ), ExtResource( 224 ), ExtResource( 236 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=21]
+radius = 45.1539
+
+[sub_resource type="SpriteFrames" id=22]
+animations = [ {
+"frames": [ ExtResource( 244 ), ExtResource( 227 ), ExtResource( 222 ), ExtResource( 195 ), ExtResource( 233 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=23]
+radius = 45.7227
+
+[sub_resource type="SpriteFrames" id=24]
+animations = [ {
+"frames": [ ExtResource( 192 ), ExtResource( 215 ), ExtResource( 223 ), ExtResource( 225 ), ExtResource( 218 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=25]
+radius = 45.3156
+
+[sub_resource type="SpriteFrames" id=26]
+animations = [ {
+"frames": [ ExtResource( 184 ), ExtResource( 245 ), ExtResource( 238 ), ExtResource( 183 ), ExtResource( 230 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=27]
+radius = 45.4181
+
+[sub_resource type="SpriteFrames" id=28]
+animations = [ {
+"frames": [ ExtResource( 188 ), ExtResource( 198 ), ExtResource( 226 ), ExtResource( 194 ), ExtResource( 186 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=29]
+radius = 45.7058
+
+[sub_resource type="SpriteFrames" id=30]
+animations = [ {
+"frames": [ ExtResource( 185 ), ExtResource( 202 ), ExtResource( 208 ), ExtResource( 228 ), ExtResource( 219 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=31]
+radius = 45.4426
+
+[sub_resource type="SpriteFrames" id=32]
+animations = [ {
+"frames": [ ExtResource( 201 ), ExtResource( 199 ), ExtResource( 237 ), ExtResource( 189 ), ExtResource( 200 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=33]
+radius = 45.2527
+
+[sub_resource type="SpriteFrames" id=34]
+animations = [ {
+"frames": [ ExtResource( 229 ), ExtResource( 209 ), ExtResource( 210 ), ExtResource( 213 ), ExtResource( 203 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=35]
+radius = 45.4613
+
+[sub_resource type="SpriteFrames" id=36]
+animations = [ {
+"frames": [ ExtResource( 191 ), ExtResource( 187 ), ExtResource( 239 ), ExtResource( 190 ), ExtResource( 240 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=37]
+radius = 44.8665
+
+[sub_resource type="SpriteFrames" id=38]
+animations = [ {
+"frames": [ ExtResource( 205 ), ExtResource( 221 ), ExtResource( 231 ), ExtResource( 193 ), ExtResource( 204 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=39]
+radius = 45.1698
+
+[sub_resource type="SpriteFrames" id=40]
+animations = [ {
+"frames": [ ExtResource( 217 ), ExtResource( 232 ), ExtResource( 211 ), ExtResource( 214 ), ExtResource( 216 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=41]
+radius = 45.325
+
+[sub_resource type="SpriteFrames" id=42]
+animations = [ {
+"frames": [ ExtResource( 248 ), ExtResource( 246 ), ExtResource( 249 ), ExtResource( 250 ), ExtResource( 247 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=43]
+radius = 45.227
+
+[sub_resource type="SpriteFrames" id=44]
+animations = [ {
+"frames": [ ExtResource( 130 ), ExtResource( 70 ), ExtResource( 251 ), ExtResource( 47 ), ExtResource( 266 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=45]
+radius = 45.5
+
+[sub_resource type="SpriteFrames" id=46]
+animations = [ {
+"frames": [ ExtResource( 41 ), ExtResource( 126 ), ExtResource( 58 ), ExtResource( 69 ), ExtResource( 54 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=47]
+radius = 45.6954
+
+[sub_resource type="SpriteFrames" id=48]
+animations = [ {
+"frames": [ ExtResource( 55 ), ExtResource( 45 ), ExtResource( 43 ), ExtResource( 121 ), ExtResource( 36 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=49]
+radius = 44.9271
+
+[sub_resource type="SpriteFrames" id=50]
+animations = [ {
+"frames": [ ExtResource( 60 ), ExtResource( 59 ), ExtResource( 37 ), ExtResource( 118 ), ExtResource( 119 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=51]
+radius = 45.3601
+
+[sub_resource type="SpriteFrames" id=52]
+animations = [ {
+"frames": [ ExtResource( 131 ), ExtResource( 63 ), ExtResource( 138 ), ExtResource( 44 ), ExtResource( 120 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=53]
+radius = 45.0863
+
+[sub_resource type="SpriteFrames" id=54]
+animations = [ {
+"frames": [ ExtResource( 66 ), ExtResource( 46 ), ExtResource( 122 ), ExtResource( 140 ), ExtResource( 56 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=55]
+radius = 45.5765
+
+[sub_resource type="SpriteFrames" id=56]
+animations = [ {
+"frames": [ ExtResource( 133 ), ExtResource( 132 ), ExtResource( 39 ), ExtResource( 127 ), ExtResource( 53 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=57]
+extents = Vector2( 44.4452, 44.0772 )
+
+[sub_resource type="SpriteFrames" id=58]
+animations = [ {
+"frames": [ ExtResource( 65 ), ExtResource( 67 ), ExtResource( 57 ), ExtResource( 38 ), ExtResource( 68 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=59]
+extents = Vector2( 44.1765, 43.8679 )
+
+[sub_resource type="SpriteFrames" id=60]
+animations = [ {
+"frames": [ ExtResource( 125 ), ExtResource( 123 ), ExtResource( 48 ), ExtResource( 124 ), ExtResource( 134 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=61]
+radius = 45.4593
+
+[sub_resource type="SpriteFrames" id=62]
+animations = [ {
+"frames": [ ExtResource( 129 ), ExtResource( 49 ), ExtResource( 128 ), ExtResource( 50 ), ExtResource( 52 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=63]
+radius = 45.4569
+
+[sub_resource type="SpriteFrames" id=64]
+animations = [ {
+"frames": [ ExtResource( 137 ), ExtResource( 135 ), ExtResource( 51 ), ExtResource( 136 ), ExtResource( 139 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=65]
+extents = Vector2( 44.2055, 44.2288 )
+
+[sub_resource type="SpriteFrames" id=66]
+animations = [ {
+"frames": [ ExtResource( 64 ), ExtResource( 42 ), ExtResource( 40 ), ExtResource( 61 ), ExtResource( 62 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=67]
+radius = 45.1615
+
+[sub_resource type="SpriteFrames" id=68]
+animations = [ {
+"frames": [ ExtResource( 254 ), ExtResource( 260 ), ExtResource( 256 ), ExtResource( 261 ), ExtResource( 255 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=69]
+radius = 45.335
+
+[sub_resource type="SpriteFrames" id=70]
+animations = [ {
+"frames": [ ExtResource( 252 ), ExtResource( 257 ), ExtResource( 253 ), ExtResource( 258 ), ExtResource( 259 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=71]
+radius = 45.5754
+
+[sub_resource type="SpriteFrames" id=72]
+animations = [ {
+"frames": [ ExtResource( 262 ), ExtResource( 264 ), ExtResource( 267 ), ExtResource( 265 ), ExtResource( 263 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=73]
+radius = 28.7617
+
+[sub_resource type="SpriteFrames" id=74]
+animations = [ {
+"frames": [ ExtResource( 271 ), ExtResource( 269 ), ExtResource( 272 ), ExtResource( 270 ), ExtResource( 268 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=75]
+extents = Vector2( 28.215, 28.4577 )
+
+[sub_resource type="SpriteFrames" id=76]
+animations = [ {
+"frames": [ ExtResource( 28 ), ExtResource( 16 ), ExtResource( 31 ), ExtResource( 26 ), ExtResource( 144 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=77]
+radius = 28.9604
+
+[sub_resource type="SpriteFrames" id=78]
+animations = [ {
+"frames": [ ExtResource( 27 ), ExtResource( 23 ), ExtResource( 22 ), ExtResource( 24 ), ExtResource( 25 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=79]
+radius = 29.0
+
+[sub_resource type="SpriteFrames" id=80]
+animations = [ {
+"frames": [ ExtResource( 34 ), ExtResource( 30 ), ExtResource( 29 ), ExtResource( 32 ), ExtResource( 33 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=81]
+radius = 29.0
+
+[sub_resource type="SpriteFrames" id=82]
+animations = [ {
+"frames": [ ExtResource( 143 ), ExtResource( 35 ), ExtResource( 142 ), ExtResource( 141 ), ExtResource( 148 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=83]
+extents = Vector2( 28, 28 )
+
+[sub_resource type="SpriteFrames" id=84]
+animations = [ {
+"frames": [ ExtResource( 17 ), ExtResource( 146 ), ExtResource( 145 ), ExtResource( 149 ), ExtResource( 21 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=85]
+radius = 29.0
+
+[sub_resource type="SpriteFrames" id=86]
+animations = [ {
+"frames": [ ExtResource( 283 ), ExtResource( 19 ), ExtResource( 18 ), ExtResource( 20 ), ExtResource( 301 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=87]
+radius = 29.0
+
+[sub_resource type="SpriteFrames" id=88]
+animations = [ {
+"frames": [ ExtResource( 275 ), ExtResource( 284 ), ExtResource( 282 ), ExtResource( 286 ), ExtResource( 279 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=89]
+radius = 29.0
+
+[sub_resource type="SpriteFrames" id=90]
+animations = [ {
+"frames": [ ExtResource( 280 ), ExtResource( 288 ), ExtResource( 156 ), ExtResource( 154 ), ExtResource( 292 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=91]
+radius = 29.0
+
+[sub_resource type="SpriteFrames" id=92]
+animations = [ {
+"frames": [ ExtResource( 305 ), ExtResource( 278 ), ExtResource( 293 ), ExtResource( 152 ), ExtResource( 321 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=93]
+radius = 29.0
+
+[sub_resource type="SpriteFrames" id=94]
+animations = [ {
+"frames": [ ExtResource( 277 ), ExtResource( 329 ), ExtResource( 314 ), ExtResource( 322 ), ExtResource( 290 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=95]
+extents = Vector2( 28, 28 )
+
+[sub_resource type="SpriteFrames" id=96]
+animations = [ {
+"frames": [ ExtResource( 310 ), ExtResource( 316 ), ExtResource( 320 ), ExtResource( 276 ), ExtResource( 302 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=97]
+radius = 29.0
+
+[sub_resource type="SpriteFrames" id=98]
+animations = [ {
+"frames": [ ExtResource( 325 ), ExtResource( 324 ), ExtResource( 311 ), ExtResource( 307 ), ExtResource( 323 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=99]
+radius = 29.0
+
+[sub_resource type="SpriteFrames" id=100]
+animations = [ {
+"frames": [ ExtResource( 294 ), ExtResource( 326 ), ExtResource( 312 ), ExtResource( 327 ), ExtResource( 296 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=101]
+radius = 29.0
+
+[sub_resource type="SpriteFrames" id=102]
+animations = [ {
+"frames": [ ExtResource( 298 ), ExtResource( 281 ), ExtResource( 289 ), ExtResource( 297 ), ExtResource( 328 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=103]
+radius = 29.0
+
+[sub_resource type="SpriteFrames" id=104]
+animations = [ {
+"frames": [ ExtResource( 300 ), ExtResource( 317 ), ExtResource( 299 ), ExtResource( 285 ), ExtResource( 274 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=105]
+radius = 29.0
+
+[sub_resource type="SpriteFrames" id=106]
+animations = [ {
+"frames": [ ExtResource( 291 ), ExtResource( 303 ), ExtResource( 295 ), ExtResource( 150 ), ExtResource( 287 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=107]
+extents = Vector2( 28, 28 )
+
+[sub_resource type="SpriteFrames" id=108]
+animations = [ {
+"frames": [ ExtResource( 315 ), ExtResource( 151 ), ExtResource( 304 ), ExtResource( 306 ), ExtResource( 308 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=109]
+radius = 29.0
+
+[sub_resource type="SpriteFrames" id=110]
+animations = [ {
+"frames": [ ExtResource( 153 ), ExtResource( 309 ), ExtResource( 318 ), ExtResource( 313 ), ExtResource( 319 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=111]
+radius = 29.0
+
+[sub_resource type="SpriteFrames" id=112]
+animations = [ {
+"frames": [ ExtResource( 341 ), ExtResource( 273 ), ExtResource( 168 ), ExtResource( 338 ), ExtResource( 334 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=113]
+radius = 29.0
+
+[sub_resource type="SpriteFrames" id=114]
+animations = [ {
+"frames": [ ExtResource( 336 ), ExtResource( 332 ), ExtResource( 337 ), ExtResource( 333 ), ExtResource( 335 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=115]
+extents = Vector2( 28, 28 )
+
+[sub_resource type="SpriteFrames" id=116]
+animations = [ {
+"frames": [ ExtResource( 331 ), ExtResource( 340 ), ExtResource( 339 ), ExtResource( 342 ), ExtResource( 330 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=117]
+radius = 29.0
+
+[sub_resource type="SpriteFrames" id=118]
+animations = [ {
+"frames": [ ExtResource( 12 ), ExtResource( 9 ), ExtResource( 4 ), ExtResource( 10 ), ExtResource( 6 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=119]
+radius = 29.0
+
+[sub_resource type="SpriteFrames" id=120]
+animations = [ {
+"frames": [ ExtResource( 11 ), ExtResource( 7 ), ExtResource( 3 ), ExtResource( 5 ), ExtResource( 14 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=121]
+radius = 29.0
+
+[sub_resource type="SpriteFrames" id=122]
+animations = [ {
+"frames": [ ExtResource( 15 ), ExtResource( 2 ), ExtResource( 1 ), ExtResource( 8 ), ExtResource( 13 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=123]
+extents = Vector2( 28, 28 )
+
+[node name="Main" type="Node2D"]
+script = ExtResource( 71 )
+
+[node name="Background" type="ColorRect" parent="."]
+margin_top = -0.943848
+margin_right = 1280.0
+margin_bottom = 719.056
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="layout" type="Sprite" parent="."]
+modulate = Color( 1, 1, 1, 0.278431 )
+position = Vector2( 636.767, 359 )
+
+[node name="[ɝ]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+z_index = 1
+frames = SubResource( 1 )
+script = ExtResource( 73 )
+sound = ExtResource( 394 )
+enabled = false
+
+[node name="Area2D" type="Area2D" parent="[ɝ]"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="[ɝ]/Area2D"]
+position = Vector2( 283, -211 )
+shape = SubResource( 2 )
+
+[node name="[aɪ]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+z_index = 1
+frames = SubResource( 3 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../i"), NodePath("../y") ]
+sound = ExtResource( 78 )
+
+[node name="Area2D2" type="Area2D" parent="[aɪ]"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="[aɪ]/Area2D2"]
+polygon = PoolVector2Array( -58.3348, -339.318, -58.8417, 339.786, 273.75, 339.625, 211.5, 335.375, 182, 329, 158.384, 321.668, 125.469, 307.178, 100.636, 290.368, 74.9408, 266.174, 49.412, 231.468, 26.4709, 186.432, 11.9319, 145.321, -3.05115, 88.1985, -21.6959, -11.7957, -45.1115, -200.512 )
+
+[node name="[aʊ]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+z_index = 1
+frames = SubResource( 4 )
+script = ExtResource( 73 )
+sound = ExtResource( 82 )
+enabled = false
+
+[node name="Area2D" type="Area2D" parent="[aʊ]"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="[aʊ]/Area2D"]
+polygon = PoolVector2Array( 394.911, 164.779, 399.793, 116.902, 402.786, 70.2847, 403.573, 41.464, 577.442, 41.3065, 570.67, 73.277, 559.803, 118.949, 545.629, 165.094 )
+
+[node name="[eɪ]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 5 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../a") ]
+sound = ExtResource( 88 )
+
+[node name="Area2D2" type="Area2D" parent="[eɪ]"]
+scale = Vector2( 1.0192, 1 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="[eɪ]/Area2D2"]
+polygon = PoolVector2Array( -28.7424, -78.3587, -20.0716, -12.7501, -11.4667, 39.0644, 159.317, 39.2722, 157.369, -78.4865 )
+
+[node name="[i]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 6 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../e"), NodePath("../i"), NodePath("../y") ]
+sound = ExtResource( 96 )
+
+[node name="Area2D" type="Area2D" parent="[i]"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="[i]/Area2D"]
+polygon = PoolVector2Array( -57.88, -342.742, -44.1724, -207.976, 160.28, -207.593, 160.654, -342.667 )
+
+[node name="[ju]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 7 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../u") ]
+sound = ExtResource( 89 )
+
+[node name="Area2D" type="Area2D" parent="[ju]"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="[ju]/Area2D"]
+polygon = PoolVector2Array( 404.422, -342.686, 404.946, -207.617, 508.422, -207.768, 507.573, -342.676 )
+
+[node name="[oʊ]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+z_index = 1
+frames = SubResource( 8 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../o") ]
+sound = ExtResource( 83 )
+
+[node name="Area2D" type="Area2D" parent="[oʊ]"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="[oʊ]/Area2D"]
+polygon = PoolVector2Array( 405.16, -78.688, 403.27, 39.7446, 577.769, 39.7446, 585.801, -11.1247, 595.251, -78.688 )
+
+[node name="[u]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 9 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../u") ]
+sound = ExtResource( 109 )
+
+[node name="Area2D" type="Area2D" parent="[u]"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="[u]/Area2D"]
+polygon = PoolVector2Array( 509.402, -342.765, 623.76, -342.626, 610.148, -207.922, 509.739, -207.746 )
+
+[node name="[æ]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 10 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../a") ]
+sound = ExtResource( 77 )
+
+[node name="Area2D2" type="Area2D" parent="[æ]"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="[æ]/Area2D2"]
+polygon = PoolVector2Array( 20.5057, 167.105, 34.3376, 200.333, 50.6011, 231.446, 62.5039, 248.431, 74.1124, 263.266, 85.9907, 275.783, 100.213, 288.557, 117.802, 300.905, 133.751, 310.081, 161.615, 321.761, 182.911, 328.405, 202.662, 332.44, 219.375, 335.125, 270.75, 338.875, 255.625, 336.125, 241, 330.5, 231.875, 323.875, 221.25, 314.25, 211.5, 301.625, 201.5, 284.375, 188.854, 252.924, 178.831, 213.057, 173.192, 180.161, 172.001, 166.866 )
+
+[node name="[ɑ]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 11 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../a"), NodePath("../o") ]
+sound = ExtResource( 87 )
+
+[node name="Area2D" type="Area2D" parent="[ɑ]"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="[ɑ]/Area2D"]
+polygon = PoolVector2Array( 173.495, 167.158, 174.477, 180.628, 179.809, 214.161, 189.771, 252.886, 202.547, 284.391, 212.347, 301.342, 222.855, 314.956, 231.704, 322.861, 241.497, 329.704, 252.823, 334.541, 264.386, 337.255, 276.42, 339.733, 287.747, 339.733, 299.899, 338.199, 311.461, 335.131, 322.362, 329.968, 333.925, 322.4, 345.066, 311.784, 355.788, 296.963, 363.461, 283.614, 368.763, 271.075, 375.131, 254.219, 381.031, 232.868, 385.574, 212.753, 389.744, 189.659, 392.793, 167.06 )
+
+[node name="[ɔ]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 12 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../o"), NodePath("../a") ]
+sound = ExtResource( 86 )
+enabled = false
+
+[node name="Area2D" type="Area2D" parent="[ɔ]"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="[ɔ]/Area2D"]
+polygon = PoolVector2Array( 394.421, 167.16, 390.427, 197.012, 383.489, 230.437, 375.08, 259.659, 364.569, 284.885, 355.95, 300.022, 346.882, 312.16, 336.625, 322.12, 327.26, 328.958, 313.138, 335.796, 292.922, 339.958, 311.057, 339.066, 340.49, 336.39, 372.25, 331.25, 405.25, 322, 424, 314.5, 441.75, 305.25, 457.25, 295, 470.75, 284.5, 483.5, 273, 496.25, 258.25, 508.75, 241.5, 520.5, 222.5, 528.5, 206.5, 534.5, 193.75, 545.5, 167.25 )
+
+[node name="[ɔɪ]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+z_index = 2
+frames = SubResource( 13 )
+script = ExtResource( 73 )
+sound = ExtResource( 85 )
+enabled = false
+
+[node name="Area2D" type="Area2D" parent="[ɔɪ]"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="[ɔɪ]/Area2D"]
+polygon = PoolVector2Array( 624.646, -342.792, 611, -207.673, 604.353, -145.792, 596.672, -78.7813, 589.478, -25.2329, 582.54, 18.9141, 579.43, 40.0016, 574.561, 63.9745, 569.841, 84.3036, 562.597, 115.172, 558.502, 129.031, 550.943, 154.544, 545.903, 169.348, 529.864, 207.067, 521.388, 223.754, 506.026, 247.856, 496.226, 260.835, 485.631, 272.489, 473.977, 283.348, 457.82, 296.327, 441.966, 306.297, 424.289, 315.313, 404.666, 323.268, 372.316, 332.283, 340.32, 337.056, 315.394, 339.354, 293.651, 340.592, 624.689, 339.809 )
+
+[node name="[ɛ]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 14 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../e") ]
+sound = ExtResource( 80 )
+
+[node name="Area2D2" type="Area2D" parent="[ɛ]"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="[ɛ]/Area2D2"]
+polygon = PoolVector2Array( -10.9836, 41.3045, -3.56744, 81.0344, 0.935303, 99.8398, 5.70288, 119.44, 9.14612, 131.889, 14.9731, 151.754, 19.7407, 165.262, 20.2243, 165.692, 171.744, 165.668, 168.625, 139, 164.519, 84.5489, 163.003, 41.1634 )
+
+[node name="[ɪ]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 15 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../y"), NodePath("../i") ]
+sound = ExtResource( 81 )
+
+[node name="Area2D2" type="Area2D" parent="[ɪ]"]
+scale = Vector2( 1.02266, 1 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="[ɪ]/Area2D2"]
+polygon = PoolVector2Array( -44.0029, -207, -28.8464, -79.25, 157.433, -79.75, 157.433, -207 )
+
+[node name="[ʊ]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+z_index = 1
+frames = SubResource( 16 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../u") ]
+sound = ExtResource( 79 )
+
+[node name="Area2D" type="Area2D" parent="[ʊ]"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="[ʊ]/Area2D"]
+polygon = PoolVector2Array( 405, -206.5, 405, -80, 595.75, -80, 610, -206.75 )
+
+[node name="[ʌ]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 17 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../u"), NodePath("../o") ]
+sound = ExtResource( 84 )
+
+[node name="Area2D" type="Area2D" parent="[ʌ]"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="[ʌ]/Area2D"]
+polygon = PoolVector2Array( 161.5, -79, 403.5, -78, 401, 39.5, 399.5, 88.5, 396.5, 128, 392.5, 166, 173, 165.5, 168.75, 128, 165.25, 75, 163.768, 31.1496, 161.764, -46.1359 )
+
+[node name="[f]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 18 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../f") ]
+sound = ExtResource( 104 )
+
+[node name="Area2D2" type="Area2D" parent="[f]"]
+position = Vector2( 0.607605, 0.591858 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="[f]/Area2D2"]
+position = Vector2( -389.34, 21.195 )
+shape = SubResource( 19 )
+
+[node name="[d]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+z_index = 1
+frames = SubResource( 20 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../d") ]
+sound = ExtResource( 98 )
+
+[node name="Area2D2" type="Area2D" parent="[d]"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="[d]/Area2D2"]
+position = Vector2( -315.585, -74.0983 )
+shape = SubResource( 21 )
+
+[node name="[ʒ]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+z_index = 1
+frames = SubResource( 22 )
+script = ExtResource( 73 )
+sound = ExtResource( 92 )
+enabled = false
+
+[node name="Area2D2" type="Area2D" parent="[ʒ]"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="[ʒ]/Area2D2"]
+position = Vector2( -509.15, 21.8303 )
+shape = SubResource( 23 )
+
+[node name="[ʃ]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 24 )
+script = ExtResource( 73 )
+sound = ExtResource( 113 )
+enabled = false
+
+[node name="Area2D2" type="Area2D" parent="[ʃ]"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="[ʃ]/Area2D2"]
+position = Vector2( -583.33, 21.9651 )
+shape = SubResource( 25 )
+
+[node name="[ŋ]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+z_index = 2
+frames = SubResource( 26 )
+script = ExtResource( 73 )
+sound = ExtResource( 97 )
+enabled = false
+
+[node name="Area2D2" type="Area2D" parent="[ŋ]"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="[ŋ]/Area2D2"]
+position = Vector2( -435.894, 117.108 )
+shape = SubResource( 27 )
+
+[node name="[θ]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 28 )
+script = ExtResource( 73 )
+sound = ExtResource( 110 )
+enabled = false
+
+[node name="Area2D2" type="Area2D" parent="[θ]"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="[θ]/Area2D2"]
+position = Vector2( -193.562, 22.0139 )
+shape = SubResource( 29 )
+
+[node name="[ʤ]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+z_index = 1
+frames = SubResource( 30 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../j"), NodePath("../g") ]
+sound = ExtResource( 114 )
+
+[node name="Area2D2" type="Area2D" parent="[ʤ]"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="[ʤ]/Area2D2"]
+position = Vector2( -119.193, 116.923 )
+shape = SubResource( 31 )
+
+[node name="[ʧ]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 32 )
+script = ExtResource( 73 )
+sound = ExtResource( 102 )
+enabled = false
+
+[node name="Area2D2" type="Area2D" parent="[ʧ]"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="[ʧ]/Area2D2"]
+position = Vector2( -192.953, 117.115 )
+shape = SubResource( 33 )
+
+[node name="[ð]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 34 )
+script = ExtResource( 73 )
+sound = ExtResource( 117 )
+enabled = false
+
+[node name="Area2D2" type="Area2D" parent="[ð]"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="[ð]/Area2D2"]
+position = Vector2( -119.458, 22.2132 )
+shape = SubResource( 35 )
+
+[node name="[z]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+z_index = 1
+frames = SubResource( 36 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../z"), NodePath("../x") ]
+sound = ExtResource( 105 )
+
+[node name="Area2D2" type="Area2D" parent="[z]"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="[z]/Area2D2"]
+position = Vector2( -119.699, -73.866 )
+shape = SubResource( 37 )
+
+[node name="[w]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 38 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../w") ]
+sound = ExtResource( 91 )
+
+[node name="Area2D2" type="Area2D" parent="[w]"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="[w]/Area2D2"]
+position = Vector2( -216.037, 211.727 )
+shape = SubResource( 39 )
+
+[node name="[v]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 40 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../v") ]
+sound = ExtResource( 106 )
+
+[node name="Area2D2" type="Area2D" parent="[v]"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="[v]/Area2D2"]
+position = Vector2( -315.086, 21.7622 )
+shape = SubResource( 41 )
+
+[node name="[t]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 42 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../t") ]
+sound = ExtResource( 115 )
+
+[node name="Area2D2" type="Area2D" parent="[t]"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="[t]/Area2D2"]
+position = Vector2( -389.227, -73.7935 )
+shape = SubResource( 43 )
+
+[node name="[s]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 44 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../s"), NodePath("../c") ]
+sound = ExtResource( 99 )
+
+[node name="Area2D2" type="Area2D" parent="[s]"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="[s]/Area2D2"]
+position = Vector2( -194, -73.75 )
+shape = SubResource( 45 )
+
+[node name="[r]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 46 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../r") ]
+sound = ExtResource( 95 )
+
+[node name="Area2D2" type="Area2D" parent="[r]"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="[r]/Area2D2"]
+position = Vector2( -314.5, 212.187 )
+shape = SubResource( 47 )
+
+[node name="[p]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 48 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../p") ]
+sound = ExtResource( 93 )
+
+[node name="Area2D" type="Area2D" parent="[p]"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="[p]/Area2D"]
+position = Vector2( -582.81, -73.5899 )
+shape = SubResource( 49 )
+
+[node name="[n]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+z_index = 1
+frames = SubResource( 50 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../n") ]
+sound = ExtResource( 116 )
+
+[node name="Area2D2" type="Area2D" parent="[n]"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="[n]/Area2D2"]
+position = Vector2( -509.531, 116.966 )
+shape = SubResource( 51 )
+
+[node name="[m]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 52 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../m") ]
+sound = ExtResource( 107 )
+
+[node name="Area2D2" type="Area2D" parent="[m]"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="[m]/Area2D2"]
+position = Vector2( -583.835, 116.868 )
+shape = SubResource( 53 )
+
+[node name="[l]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 54 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../l") ]
+sound = ExtResource( 103 )
+
+[node name="Area2D2" type="Area2D" parent="[l]"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="[l]/Area2D2"]
+position = Vector2( -411.95, 211.753 )
+shape = SubResource( 55 )
+
+[node name="[kw]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 56 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../q") ]
+sound = ExtResource( 100 )
+
+[node name="Area2D3" type="Area2D" parent="[kw]"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="[kw]/Area2D3"]
+position = Vector2( -485.511, 306.095 )
+shape = SubResource( 57 )
+
+[node name="[ks]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 58 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../x") ]
+sound = ExtResource( 108 )
+
+[node name="Area2D3" type="Area2D" parent="[ks]"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="[ks]/Area2D3"]
+position = Vector2( -386.618, 305.806 )
+shape = SubResource( 59 )
+
+[node name="[k]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 60 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../k"), NodePath("../c") ]
+sound = ExtResource( 111 )
+
+[node name="Area2D2" type="Area2D" parent="[k]"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="[k]/Area2D2"]
+position = Vector2( -583.495, 212.052 )
+shape = SubResource( 61 )
+
+[node name="[j]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 62 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../y") ]
+sound = ExtResource( 94 )
+
+[node name="Area2D2" type="Area2D" parent="[j]"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="[j]/Area2D2"]
+position = Vector2( -118.732, 211.868 )
+shape = SubResource( 63 )
+
+[node name="[hw]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 64 )
+script = ExtResource( 73 )
+sound = ExtResource( 395 )
+enabled = false
+
+[node name="Area2D2" type="Area2D" parent="[hw]"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="[hw]/Area2D2"]
+position = Vector2( -584.53, 306.354 )
+shape = SubResource( 65 )
+
+[node name="[h]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 66 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../h") ]
+sound = ExtResource( 101 )
+
+[node name="Area2D2" type="Area2D" parent="[h]"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="[h]/Area2D2"]
+position = Vector2( -310, 117 )
+shape = SubResource( 67 )
+
+[node name="[g]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 68 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../g") ]
+sound = ExtResource( 112 )
+
+[node name="Area2D2" type="Area2D" parent="[g]"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="[g]/Area2D2"]
+position = Vector2( -509.522, 212.106 )
+shape = SubResource( 69 )
+
+[node name="[b]" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 70 )
+script = ExtResource( 73 )
+relatedGraphemePaths = [ NodePath("../b") ]
+sound = ExtResource( 90 )
+
+[node name="Area2D2" type="Area2D" parent="[b]"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="[b]/Area2D2"]
+position = Vector2( -509, -74 )
+shape = SubResource( 71 )
+
+[node name="z" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 72 )
+script = ExtResource( 72 )
+
+[node name="Area2D" type="Area2D" parent="z"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="z/Area2D"]
+position = Vector2( -165.685, -194.63 )
+shape = SubResource( 73 )
+
+[node name="y" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 74 )
+script = ExtResource( 72 )
+
+[node name="Area2D" type="Area2D" parent="y"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="y/Area2D"]
+position = Vector2( -229, -195.061 )
+shape = SubResource( 75 )
+
+[node name="x" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 76 )
+script = ExtResource( 72 )
+
+[node name="Area2D" type="Area2D" parent="x"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="x/Area2D"]
+position = Vector2( -290.595, -193 )
+shape = SubResource( 77 )
+
+[node name="w" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 78 )
+script = ExtResource( 72 )
+
+[node name="Area2D" type="Area2D" parent="w"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="w/Area2D"]
+position = Vector2( -352.706, -193.028 )
+shape = SubResource( 79 )
+
+[node name="v" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 80 )
+script = ExtResource( 72 )
+
+[node name="Area2D" type="Area2D" parent="v"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="v/Area2D"]
+position = Vector2( -414.837, -193.158 )
+shape = SubResource( 81 )
+
+[node name="u" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 82 )
+script = ExtResource( 72 )
+
+[node name="Area2D" type="Area2D" parent="u"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="u/Area2D"]
+position = Vector2( -477.389, -193.213 )
+shape = SubResource( 83 )
+
+[node name="t" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 84 )
+script = ExtResource( 72 )
+
+[node name="Area2D" type="Area2D" parent="t"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="t/Area2D"]
+position = Vector2( -539.14, -191.726 )
+shape = SubResource( 85 )
+
+[node name="s" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 86 )
+script = ExtResource( 72 )
+
+[node name="Area2D" type="Area2D" parent="s"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="s/Area2D"]
+position = Vector2( -601.383, -191.596 )
+shape = SubResource( 87 )
+
+[node name="r" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 88 )
+script = ExtResource( 72 )
+
+[node name="Area2D" type="Area2D" parent="r"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="r/Area2D"]
+position = Vector2( -103.393, -256.471 )
+shape = SubResource( 89 )
+
+[node name="q" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 90 )
+script = ExtResource( 72 )
+
+[node name="Area2D" type="Area2D" parent="q"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="q/Area2D"]
+position = Vector2( -165.655, -256.613 )
+shape = SubResource( 91 )
+
+[node name="p" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 92 )
+script = ExtResource( 72 )
+
+[node name="Area2D" type="Area2D" parent="p"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="p/Area2D"]
+position = Vector2( -228.071, -259.918 )
+shape = SubResource( 93 )
+
+[node name="o" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 94 )
+script = ExtResource( 72 )
+
+[node name="Area2D" type="Area2D" parent="o"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="o/Area2D"]
+position = Vector2( -290.508, -259.941 )
+shape = SubResource( 95 )
+
+[node name="n" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 96 )
+script = ExtResource( 72 )
+
+[node name="Area2D" type="Area2D" parent="n"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="n/Area2D"]
+position = Vector2( -352.715, -260.061 )
+shape = SubResource( 97 )
+
+[node name="m" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 98 )
+script = ExtResource( 72 )
+
+[node name="Area2D" type="Area2D" parent="m"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="m/Area2D"]
+position = Vector2( -414.756, -260.113 )
+shape = SubResource( 99 )
+
+[node name="l" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 100 )
+script = ExtResource( 72 )
+
+[node name="Area2D" type="Area2D" parent="l"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="l/Area2D"]
+position = Vector2( -476.999, -258.648 )
+shape = SubResource( 101 )
+
+[node name="k" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 102 )
+script = ExtResource( 72 )
+
+[node name="Area2D" type="Area2D" parent="k"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="k/Area2D"]
+position = Vector2( -539.272, -258.486 )
+shape = SubResource( 103 )
+
+[node name="j" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 104 )
+script = ExtResource( 72 )
+
+[node name="Area2D" type="Area2D" parent="j"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="j/Area2D"]
+position = Vector2( -601.443, -258.622 )
+shape = SubResource( 105 )
+
+[node name="i" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 106 )
+script = ExtResource( 72 )
+
+[node name="Area2D" type="Area2D" parent="i"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="i/Area2D"]
+position = Vector2( -103.377, -322.381 )
+shape = SubResource( 107 )
+
+[node name="h" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 108 )
+script = ExtResource( 72 )
+
+[node name="Area2D" type="Area2D" parent="h"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="h/Area2D"]
+position = Vector2( -165.565, -322.255 )
+shape = SubResource( 109 )
+
+[node name="g" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 110 )
+script = ExtResource( 72 )
+
+[node name="Area2D" type="Area2D" parent="g"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="g/Area2D"]
+position = Vector2( -228.155, -322.242 )
+shape = SubResource( 111 )
+
+[node name="f" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 112 )
+script = ExtResource( 72 )
+
+[node name="Area2D" type="Area2D" parent="f"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="f/Area2D"]
+position = Vector2( -290.535, -322.056 )
+shape = SubResource( 113 )
+
+[node name="e" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 114 )
+script = ExtResource( 72 )
+
+[node name="Area2D" type="Area2D" parent="e"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="e/Area2D"]
+position = Vector2( -352.415, -322.403 )
+shape = SubResource( 115 )
+
+[node name="d" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 116 )
+script = ExtResource( 72 )
+
+[node name="Area2D" type="Area2D" parent="d"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="d/Area2D"]
+position = Vector2( -414.792, -322.008 )
+shape = SubResource( 117 )
+
+[node name="c" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 118 )
+script = ExtResource( 72 )
+
+[node name="Area2D" type="Area2D" parent="c"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="c/Area2D"]
+position = Vector2( -476.963, -322.189 )
+shape = SubResource( 119 )
+
+[node name="b" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 120 )
+script = ExtResource( 72 )
+
+[node name="Area2D" type="Area2D" parent="b"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="b/Area2D"]
+position = Vector2( -539.263, -322.286 )
+shape = SubResource( 121 )
+
+[node name="a" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 360 )
+frames = SubResource( 122 )
+script = ExtResource( 72 )
+
+[node name="Area2D" type="Area2D" parent="a"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="a/Area2D"]
+position = Vector2( -601.334, -322.591 )
+shape = SubResource( 123 )
+
+[node name="DoneButton" type="Button" parent="."]
+margin_left = 442.0
+margin_top = 621.0
+margin_right = 772.0
+margin_bottom = 846.0
+rect_scale = Vector2( 0.4, 0.4 )
+custom_fonts/font = ExtResource( 75 )
+custom_colors/font_color = Color( 0.294118, 0.454902, 0.960784, 1 )
+text = "✓ Done!"
+script = ExtResource( 74 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="NextButton" type="Button" parent="."]
+visible = false
+margin_left = 442.0
+margin_top = 621.0
+margin_right = 772.0
+margin_bottom = 846.0
+rect_scale = Vector2( 0.4, 0.4 )
+custom_fonts/font = ExtResource( 75 )
+custom_colors/font_color = Color( 0.32549, 0.803922, 0.333333, 1 )
+text = "➞ Next."
+script = ExtResource( 393 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ResetButton" type="Button" parent="."]
+margin_left = 304.0
+margin_top = 621.0
+margin_right = 634.0
+margin_bottom = 846.0
+rect_scale = Vector2( 0.4, 0.4 )
+custom_fonts/font = ExtResource( 75 )
+custom_colors/font_color = Color( 1, 0.698039, 0, 1 )
+text = "↺ Reset"
+script = ExtResource( 76 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+[connection signal="pressed" from="DoneButton" to="DoneButton" method="_on_DoneButton_pressed"]
+[connection signal="pressed" from="NextButton" to="NextButton" method="_on_NextButton_pressed"]
+[connection signal="pressed" from="ResetButton" to="ResetButton" method="_on_ResetButton_pressed"]
